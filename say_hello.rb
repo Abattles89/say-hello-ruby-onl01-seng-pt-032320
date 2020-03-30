@@ -1,5 +1,5 @@
 # Adding a string will work
 
-def say_hello(name)
-  puts "Hello, #{name}"
+def say_hello(name = "Ashleigh")
+  puts "Hello, #{name}!"
 end
